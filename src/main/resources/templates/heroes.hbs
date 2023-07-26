@@ -1,0 +1,29 @@
+{{#partial "content"}}
+    <div id="main">
+        <section class="main">
+            <h1 class="button-right">Heroes <span class="buttons"><a href="/heroes/new" class="button primary">Add New Hero</a></span></h1>
+            {{#if heroes}}
+                {{#each heroes}}
+                <article class="hero">
+                    <header class="major">
+                        <h2>{{ name }}</h2>
+                        <p><strong>Age:</strong> {{ age }}</p>
+                        <p><strong>Power:</strong> {{ power }}</p>
+                        <p><strong>Weakness:</strong> {{ weakness }}</p>
+                    </header>
+                    <footer class="major">
+                        <ul class="actions special">
+                            <li><a href="/heroes/{{ id }}" class="button primary">More Details</a></li>
+                            <li><a href="/squads/hero/{{ id }}" class="button">Add hero to squad</a></li>
+                        </ul>
+                    </footer>
+                </article>
+                {{/each}}
+            {{else}}
+            <p>No heroes added</p>
+            {{/if}}
+        </section>
+    </div>
+{{/partial}}
+
+{{> layout.hbs}}

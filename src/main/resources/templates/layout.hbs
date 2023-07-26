@@ -1,0 +1,27 @@
+{{#block "header"}}
+    <!DOCTYPE HTML>
+    <html lang="en">
+    <head>
+        <title>{{#block "title"}}Hero Squad{{/block}}</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="/css/main.css" />
+        <noscript><link rel="stylesheet" href="/css/noscript.css" /></noscript>
+    </head>
+    <body class="is-preload">
+{{/block}}
+<div id="wrapper">
+    {{> header.hbs}}
+    {{> nav.hbs}}
+    {{#block "content"}}{{/block}}
+    {{> footer.hbs}}
+</div>
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/browser.min.js"></script>
+<script src="/js/breakpoints.min.js"></script>
+<script src="/js/util.js"></script>
+<script src="/js/main.js"></script>
+
+</body>
+</html>
