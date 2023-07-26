@@ -14,7 +14,25 @@ Follow the following setup instructions to run the program.
 ## Screenshots
 
 ### HomePage
-![screenshot showing the encrypt process](https://raw.githubusercontent.com/pkariithi/HeroSquad/main/src/main/resources/public/screenshots/1-homepage.png)
+![screenshot showing the home page](https://raw.githubusercontent.com/pkariithi/HeroSquad/main/src/main/resources/public/screenshots/1-homepage.png)
+
+### Heroes Page
+![screenshot showing the heroes page](https://raw.githubusercontent.com/pkariithi/HeroSquad/main/src/main/resources/public/screenshots/2-heroes.png)
+
+### Single Hero Page
+![screenshot showing the single hero page](https://raw.githubusercontent.com/pkariithi/HeroSquad/main/src/main/resources/public/screenshots/3-single-hero.png)
+
+### New Hero Page
+![screenshot showing the new hero page](https://raw.githubusercontent.com/pkariithi/HeroSquad/main/src/main/resources/public/screenshots/4-new-hero.png)
+
+### Squads Page
+![screenshot showing the squads page](https://raw.githubusercontent.com/pkariithi/HeroSquad/main/src/main/resources/public/screenshots/5-squads.png)
+
+### Single squad Page
+![screenshot showing the single squad page](https://raw.githubusercontent.com/pkariithi/HeroSquad/main/src/main/resources/public/screenshots/6-single-squad.png)
+
+### New squad Page
+![screenshot showing the new squad page](https://raw.githubusercontent.com/pkariithi/HeroSquad/main/src/main/resources/public/screenshots/7-new-squad.png)
 
 ## B.D.D
 
